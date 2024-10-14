@@ -15,3 +15,6 @@ spring:
     enabled: false  # 这里应该用 `enabled: false`
 file:
   upload-dir: ./uploads  # 使用相对路径，这里定义为项目根目录下的 "uploads" 文件夹
+# application.yml
+server:
+  port: 8081
