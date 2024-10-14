@@ -10,3 +10,6 @@ spring:
     multipart:
       max-file-size: 10MB
       max-request-size: 20MB
+
+  security:
+    enabled: false  # 这里应该用 `enabled: false`
