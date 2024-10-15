@@ -12,7 +12,7 @@ import org.springframework.beans.factory.annotation.Value;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
-
+@CrossOrigin(origins = "http://localhost:8080")
 @RestController
 @RequestMapping("/api/photos")
 public class PhotoController {
